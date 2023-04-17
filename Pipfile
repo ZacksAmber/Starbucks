@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = {extras = ["performance"], version = "*"}
+scipy = "*"
+scikit-learn = "*"
+xgboost = "*"
+optuna = "*"
+statsmodels = "*"
+rpy2 = "*"
+jupyter = "*"
+jupyterlab = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
